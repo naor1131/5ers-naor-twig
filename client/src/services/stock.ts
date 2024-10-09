@@ -32,7 +32,7 @@ export const useStockService = () => {
   }, []);
 
   const getLikedStocks = () => {
-    return stocks.filter((stock) => globalStore.authenticatedUser?.liked_symbols?.includes(stock.symbol));
+    return stocks?.filter((stock) => globalStore.authenticatedUser?.liked_symbols?.includes(stock.symbol));
   };
 
   return { stocks, loading, fetchStocks, getLikedStocks };
