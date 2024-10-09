@@ -10,9 +10,9 @@ import { useNavigate } from "react-router-dom";
 
 interface IMarketPageProps {
   title: string;
-  stocks: IStock[];
+  stocks?: IStock[];
 }
-const MarketPage = ({ stocks, title }: IMarketPageProps) => {
+const MarketPage = ({ stocks = [], title }: IMarketPageProps) => {
   const [searchTerm, setSearchTerm] = useState("");
   const navigate = useNavigate();
 

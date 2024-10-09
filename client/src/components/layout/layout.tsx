@@ -95,7 +95,7 @@ const Layout = () => {
                   element={
                     <MarketPage
                       title={"Your Portfolio"}
-                      stocks={stocks.filter((s) => globalStore.authenticatedUser?.liked_symbols?.includes(s.symbol))}
+                      stocks={stocks?.filter((s) => globalStore.authenticatedUser?.liked_symbols?.includes(s.symbol))}
                     />
                   }
                 />
@@ -104,7 +104,7 @@ const Layout = () => {
                   element={
                     <MarketPage
                       title={"Your Portfolio"}
-                      stocks={stocks.filter((s) => globalStore.authenticatedUser?.liked_symbols?.includes(s.symbol))}
+                      stocks={stocks?.filter((s) => globalStore.authenticatedUser?.liked_symbols?.includes(s.symbol))}
                     />
                   }
                 />
