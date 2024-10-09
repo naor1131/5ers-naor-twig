@@ -78,8 +78,6 @@ const MarketPage = ({ stocks = [], title }: IMarketPageProps) => {
     },
   ];
 
-  if (!stocks) return <div>loading...</div>;
-
   return (
     <div className="market-page">
       <h1>{title}</h1>
