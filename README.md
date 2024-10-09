@@ -8,29 +8,17 @@ This project consists of a client and a server. Below are the instructions to ru
 
 ### Client
 
-1. Navigate to the client directory:
+1. Start Client:
    ```bash
    cd client
-
-2. Install dependencies:
-   ````bash
    npm install
-
-3. Start application:
-   ````bash
    npm start
 
 
 ### Server
 
-1. Navigate to the server directory:
+1. Start Server:
    ```bash
    cd server
-
-2. Install dependencies:
-   ````bash
    npm install
-
-3. Start application:
-   ````bash
    npm start
