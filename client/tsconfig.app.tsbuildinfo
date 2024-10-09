@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/content/market-page.tsx","./src/components/content/route-not-exist-page.tsx","./src/components/content/stock-details-page.tsx","./src/components/layout/layout.tsx","./src/services/stock.ts","./src/store/global-store.ts","./src/types/types.ts"],"version":"5.6.2"}
